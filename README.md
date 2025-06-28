@@ -47,6 +47,50 @@ For research/educational purposes only. Always consult qualified medical profess
 - **Unit tests** (pytest) & **CI** (GitHub Actions)  
 - **Dockerized** for easy deployment  
 
+## Patient Comfort Features
+
+1. **Guided Walk-Through & Education**  
+   - Embed an interactive tutorial or short animated video explaining, step-by-step, what will happen—so there are no surprises.  
+   - Provide reassuring, plain-language text (and optional audio narration) describing each action, why it’s done, and how long it takes.
+
+2. **Pre-Exam Comfort Survey**  
+   - Present a quick “comfort check” questionnaire (e.g. pain scale, anxiety level, privacy concerns) before measurements begin.  
+   - Store or log responses so clinicians can tailor their approach (e.g. offer a warm blanket, allow a support person).
+
+3. **Soothing UI & Environment Controls**  
+   - Offer a “calm mode” toggle with softer color palettes, larger fonts, and optional ambient audio (e.g. white noise or gentle music).  
+   - Display a reassuring progress bar or countdown timer so the patient always knows how much longer each step will take.
+
+4. **Privacy & Data Security**  
+   - Implement a screen-blur or session-lock so measurements aren’t visible to passersby.  
+   - Enforce end-to-end encryption on all stored and in-transit data; show a clear privacy badge in the UI.
+
+5. **On-Screen Prompts & Reminders**  
+   - Before each critical action (“Now I’m going to insert the probe”), pop up a “Ready?” confirmation so the patient can pause or ask questions.  
+   - Provide a one-touch “call nurse/stop” button that immediately halts the process and alerts staff.
+
+6. **Real-Time Comfort Feedback Loop**  
+   - After each measurement, prompt: “How was that? (😊 Comfortable / 😐 Tolerable / 😣 Painful)”.  
+   - Aggregate these responses to adjust future steps (e.g. slow down, use more lubricant, switch to a smaller spoon).
+
+7. **Language & Accessibility Options**  
+   - Support additional languages and an easy-read mode (icons, pictograms).  
+   - Ensure screen-reader compatibility and adjustable text sizes.
+
+8. **Clinician Dashboard & Alerts**  
+   - Display real-time patient comfort flags on the clinician’s dashboard (e.g. auto-pause if “painful” is reported twice).  
+   - Integrate with the audit log to timestamp any “stop” events for review.
+
+9. **Post-Exam Resources**  
+   - Generate a brief PDF or on-screen summary: what was measured, recommended spoon size, and “what to expect next.”  
+   - Include links to FAQs, anatomy diagrams, or 24/7 support chat.
+
+10. **Automated Reminders & Follow-Up**  
+    - Offer to schedule follow-up exam reminders via email/SMS.  
+    - Allow patients to opt-in to receive anonymized data for personal tracking.
+
+
+
 ## Setup
 
 ```bash
