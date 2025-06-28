@@ -28,7 +28,6 @@ vaginal-diameter-spoon-calculator/
 
 ## README.md
 
-````markdown
 # Vaginal Diameter → Spoon Size Calculator
 
 **Disclaimer:**  
